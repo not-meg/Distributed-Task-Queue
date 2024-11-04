@@ -34,7 +34,7 @@
 - is the ![consumer](https://img.shields.io/badge/consumer-orange?style=flat-square&color=f25e35) for the assigned tasks
 - stores the result of the task in the result backend (redis)
 - sends periodic heartbeat to task scheduler
-- sends status of the task to task scheduler (on completion, task scheduler must delete entry from worker load table) → can be done by being producer of topic called <status> and sending to task scheduler
+- sends status of the task to task scheduler (on completion, task scheduler must delete entry from worker load table) → can be done by being producer of topic called 'status' and sending to task scheduler
 
 ## dataset structure (tentative) (tasks given by client)
 
