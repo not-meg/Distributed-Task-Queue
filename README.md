@@ -10,8 +10,8 @@
 
 ![Task Topic](https://img.shields.io/badge/task%20topic-green?style=flat-square&color=228b22)
 
-- create a topic called <TASKS>
-- task scheduler subscribes to <TASKS>
+- create a topic called 'TASKS'
+- task scheduler subscribes to 'TASKS'
 
 ## task scheduler
 
@@ -25,8 +25,8 @@
 
 ![Worker Topic](https://img.shields.io/badge/worker%20topic-orange?style=flat-square&color=f25e35)
 
-- create topics <W1> <W2> … <Wn>
-- worker1 subscribes to <W1>, worker2 subscribes to <W2> etc.
+- create topics 'W1' 'W2' … 'Wn'
+- worker1 subscribes to 'W1', worker2 subscribes to 'W2' etc.
 
 ## worker
 
@@ -38,7 +38,7 @@
 
 ## dataset structure (tentative) (tasks given by client)
 
-```python
+```json
 {
 	"task-id": "d5750c0e-ed82",
 	"task":"add",
