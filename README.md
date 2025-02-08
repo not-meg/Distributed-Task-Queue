@@ -1,5 +1,3 @@
-# RR-Team-7-yadtq-yet-another-distributed-task-queue- 
-
 # YADTQ
 
 ## client
